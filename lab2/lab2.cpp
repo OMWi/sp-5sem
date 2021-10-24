@@ -29,7 +29,7 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PWSTR pCmdLine
 
     RegisterClass(&wc);
 
-    HWND hwnd = CreateWindow(CLASS_NAME, L"Lab1", WS_CAPTION | WS_SYSMENU,
+    HWND hwnd = CreateWindow(CLASS_NAME, L"Lab2", WS_CAPTION | WS_SYSMENU,
         CW_USEDEFAULT, CW_USEDEFAULT, 700, 350,
         NULL, NULL, hInstance, NULL
     );
